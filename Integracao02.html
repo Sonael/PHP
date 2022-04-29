@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amor</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!--<link rel="stylesheet" href="style/styleCss.css"/>-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="testbox">
+        <form action="02idade.php" method="get">
+
+            <div class="item">
+                <p><strong>Nome:</strong></p>
+                <div>
+                    <input type="text" name="nome" placeholder="Nome" />
+                </div>
+            </div>
+
+            <div class="item">
+                <p><strong>Ano de Nascimento:</strong></p>
+                <div>
+                    <input type="number" name="ano" placeholder="Ano de nascimento" />
+                </div>
+            </div>
+
+            <div class="item">
+                <p><strong>Sexo:</strong></p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sexo" id="masc" checked value="Masculino" />
+                    <label class="form-check-label" for="masc"> Masculino </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sexo" id="fem" value="Feminino"/>
+                    <label class="form-check-label" for="fem"> Feminino </label>
+                </div>
+            </div>
+
+            <div class="btn-block">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
